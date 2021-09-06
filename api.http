@@ -1,0 +1,26 @@
+### Create
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+  "email": "marcos@marcos.dev",
+  "nome": "Marco Xablau",
+  "idade": 32
+}
+
+### FindAll
+GET http://localhost:8000/users
+
+### FindOne
+GET http://localhost:8000/users/1
+
+### Update
+PUT http://localhost:8000/users/1
+Content-Type: application/json
+
+{
+  "nome": "Nicolas Walcker"
+}
+
+### Delete
+DELETE http://localhost:8000/users/1
